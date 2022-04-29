@@ -1,6 +1,7 @@
 body{
     font-family: sans-serif;
     margin: 0;
+    padding: 0;
 }
 
 .container{
@@ -31,8 +32,27 @@ h1{
     margin: 20px 20px 20px 20px;
 }
 
+h2{
+    text-decoration: none;
+    color: #6E29A9;
+}
+
+h3{
+    text-align: left;
+    text-decoration: none;
+    color: #1B314F;
+    margin: 20px 20px 20px 20px;
+}
+
+h4{
+    text-align: left;
+    text-decoration: none;
+    color: #6E29A9;
+    margin: 20px 20px 20px 20px;
+}
+
 #img1{
-    border-radius: 10%;
+
     width: 366px;
     height: 250px;
     float: right;
@@ -57,6 +77,28 @@ nav a{
 nav a:hover{
     color: white;
 }
+
+.contenedor{
+    max-width: 1170px;
+    margin: auto;
+}
+
+.contenedor h2{
+    color: #6E29A9;
+}
+
+footer{
+    
+    background-color: #1B314F;
+    padding: 70px 0;
+}
+
+.footer p{
+    font-size: 18px;
+    color: white;
+    text-align: right;
+}
+
 
 @media (max-width:700px){
     header{
