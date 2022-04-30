@@ -5,10 +5,10 @@ body{
 }
 
 .container{
-    width: 100%;
+    background-color: #FFFFFF;
     height: auto;
-    align-items: center;
-    justify-content: center;
+    display: grid;
+    place-items: center;
 }
 
 a{
@@ -24,6 +24,7 @@ header{
     align-items: center;
     padding: 10px;
 }
+
 
 h1{
     text-align: center;
@@ -78,11 +79,51 @@ nav a:hover{
     color: white;
 }
 
+button {
+    width: 95px;
+    height: 33px;
+    border-radius: 6px;
+    border: none;
+    margin: 2px;
+}
+
 .contenedor{
-    max-width: 1170px;
+    max-width: 1710px;
+    height: 63px;
     margin: auto;
 }
 
+
+.MoradoButton {
+    color: #6E29A9;
+}
+
+.inputR {
+    border: none;
+    width: 250px;
+    font-size: 50px;
+    border-radius: 9px;
+    text-align: right;
+    background-color: #221e1e;
+    color: white;
+    font-weight: 200;
+}
+  
+::-webkit-input-placeholder {
+    color: white;
+}
+  
+.input {
+    border: none;
+    width: 250px;
+    font-size: 50px;
+    border-radius: 6px;
+    text-align: right;
+    background-color: #5a5656;
+    color: white;
+    font-weight: 200;
+}
+  
 .contenedor h2{
     color: #6E29A9;
 }

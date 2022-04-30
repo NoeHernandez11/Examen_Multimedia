@@ -1,5 +1,4 @@
-let temporal = 0;
-let operacion = '';
+
 var input = document.getElementById('input');
 
 function add(num) {
@@ -22,11 +21,12 @@ function operacionFunction(operador) {
   input.value = '';
 }
 
-function igual() {
+function Calcular() {
   if (operacion != '') {
     input.value = eval(temporal + operacion + input.value);
   }
 }
+//antes anterior igual
 
 function borrar() {
   input.value = input.value.toString().slice(0,-1);
