@@ -150,12 +150,6 @@ button {
     flex-wrap: wrap;
     padding-top: 30px;
 }
-
-.estadistica .contenido_estadistica .extder{
-    display: flex;
-    float: right;
-}
-
 .estadistica .contenido_estadistica figure {
     width: 50%;
     min-width: 500px;
@@ -186,6 +180,7 @@ button {
     border-radius: 10px;
     border-style: none;
 }
+
 .patrocinadores {
     padding-top: 90px;
     display: flex;

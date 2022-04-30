@@ -22,26 +22,8 @@ function operacionFunction(operador) {
 }
 
 function Calcular() {
-  if (operacion != '') {
-    input.value = eval(temporal + operacion + input.value);
-  }
+    DeduccionInss.value =  input.value*0.07;
 }
 //antes anterior igual
 
-function borrar() {
-  input.value = input.value.toString().slice(0,-1);
-}
 
-
-function cleanInput() {
-  if (input.value != '') {
-    input.value = '';
-  } else {
-    temporal = 0;
-    operacion = '';
-  }
-}
-
-function borrar() {
-  input.value = input.value.toString().slice(0,-1);
-}
